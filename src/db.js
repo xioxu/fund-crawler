@@ -10,7 +10,7 @@ const githubDB = new GitHubDB({
     auth: getGitHubPersonalAccessToken(),
     owner: 'xioxu',
     repo: 'fund-data',
-    user: { name: 'duanqz', email: 'duanqz@gmail.com' }
+    user: { name: 'xioxu', email: 'xioxu@gmail.com' }
 })
 
 class DBTaskQueue {
